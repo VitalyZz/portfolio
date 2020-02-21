@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bgDesktop.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+}
+
+ul li:before {
+    content: "- ";
+}
+
+.gray {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(54, 64, 74, .7);
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 0 0 0;
+}
+
+.fullName {
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.placeOfEducation {
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.professionalSkills {
+    font-size: 36px;
+    line-height: 41px;
+    color: #30C2FF;
+    margin-top: 40px;
+}
+
+ul li {
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.cont {
+    margin-top: 15px;
+    font-size: 36px;
+    line-height: 41px;
+    color: #30C2FF;
+}
+
+.contacts {
+    margin-top: 20px;
+    display: flex;
+    line-height: 35px; 
+    display: inline-flex;
+    background-color: rgba(54, 64, 74, .7);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.contacts a {
+    display: block;
+}
+
+.leftSection {
+    font-size: 24px;
+    color: #FF4D4D;
+}
+
+.rightSection {
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.rightSection a, a:active, a:focus, a:visited {
+    color: #0DFF92;
+    text-decoration: none;
+}
+
+.rightSection a:hover {
+    color: rgb(0, 189, 16);
+}
+
+img {
+    top: 32px;
+    right: 32px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.contacts a {
+    text-decoration: underline;
+    text-decoration-color: #FF4D4D;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: url(../img/bgPhone.jpg) center center fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .gray {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(54, 64, 74, .7);
+        z-index: -1;
+    }
+
+    .container {
+        position: relative;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    img {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 5px solid #00FFD1;
+    }
+
+    .fullName {
+        margin-top: 175px;
+        font-size: 36px;
+        line-height: 41px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .placeOfEducation {
+        font-size: 24px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .professionalSkills {
+        font-size: 18px;
+        line-height: 21px;
+        color: #30C2FF;
+        margin-top: 15px;
+    }
+
+    ul li {
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .cont {
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 21px;
+        color: #30C2FF;
+    }
+
+    .contacts {
+        margin-top: 10px;
+        display: flex;
+        line-height: 30px;
+    }
+
+    .leftSection {
+        font-size: 16px;
+        color: #FF4D4D;
+    }
+
+    .rightSection {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 685px) {
+    .container {
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    img {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 5px solid #00FFD1;
+    }
+
+    .fullName {
+        margin-top: 175px;
+        font-size: 46px;
+        line-height: 41px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .placeOfEducation {
+        font-size: 29px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .professionalSkills {
+        font-size: 26px;
+        line-height: 21px;
+        color: #30C2FF;
+        margin-top: 15px;
+    }
+
+    ul li {
+        font-size: 28px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .cont {
+        margin-top: 15px;
+        font-size: 29px;
+        line-height: 29px;
+        color: #30C2FF;
+    }
+
+    .contacts {
+        margin-top: 10px;
+        display: flex;
+        line-height: 30px;
+    }
+
+    .leftSection {
+        font-size: 22px;
+        color: #FF4D4D;
+    }
+
+    .rightSection {
+        margin-left: 30px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 686px) and (max-width: 1170px) {
+    .container {
+        position: relative;
+        width: 650px;
+        margin: 0 auto;
+        padding: 32px 0 0 0;
+    }
+    
+    img {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 5px solid #fff;
+    }
+
+    .fullName {
+        margin-top: 340px;
+        font-size: 36px;
+        line-height: 41px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .gray {
+        height: 100%;
+    }
+}
