@@ -134,7 +134,7 @@ img {
         left: 0;
         position: absolute;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background-color: rgba(54, 64, 74, .7);
         z-index: -1;
     }
