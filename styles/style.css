@@ -123,7 +123,7 @@ img {
     body {
         position: relative;
         width: 100vw;
-        height: 100vh;
+        min-height: 100vh;
         background: url(../img/bgPhone.jpg) center center fixed;
         background-repeat: no-repeat;
         background-size: cover;
@@ -314,6 +314,6 @@ img {
     }
 
     .gray {
-        height: 100%;
+        min-height: 100vh;
     }
 }
