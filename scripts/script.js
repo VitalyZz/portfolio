@@ -8,7 +8,7 @@ function changeColor() {
     const rand1 = randomNum(0, 255);
     const rand2 = randomNum(0, 255);
     const rand3 = randomNum(0, 255);
-    if (width >= 420) {
+    if (width <= 420) {
         const img = document.querySelector('img');
 
         img.style.border = `5px solid rgb(${rand1}, ${rand2}, ${rand3})`;
